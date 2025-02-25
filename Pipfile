@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+teams-ai = "==1.6.0"
+openai = "*"
+aiohttp = "*"
+python-dotenv = "*"
+pandas = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
